@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/mobile-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden; 
+}
+
+main {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -25px;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    color: #A0D5CD;
+    font-size: 38px;
+    text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.text strong {
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form select {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #1D1D1D;
+    outline: none;
+}
+
+.form select > option {
+    color: #1D1D1D;
+}
+
+.form button {
+    color:#FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #C272A8;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 11px;
+    margin-top: 30px;
+    line-height: 16px;
+}
+
+.terms span {
+    text-transform: uppercase;
+}
+
+.terms a {
+    color: #FFF;
+}
+
+@media (min-width: 680px) {
+    main {
+        background-image: url('../../images/desktop-bg.png');
+    }
+}
