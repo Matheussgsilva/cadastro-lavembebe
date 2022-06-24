@@ -11,7 +11,7 @@ body {
 main {
     text-align: center;    
     background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');
-    background-size: contain;
+    background-size: 160%;
     background-repeat: no-repeat;
     background-position: top left;
 }
