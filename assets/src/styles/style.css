@@ -16,6 +16,11 @@ main {
     background-position: top left;
 }
 
+.wrapper {    
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, rgba(0,0,0,0) 100%);
+}
+
 .content {
     display: flex;
     flex-direction: column;
