@@ -10,10 +10,10 @@ body {
 
 main {
     text-align: center;    
-    background-image: url('../../images/gravida_elo7-mobile.jpg');
+    background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top left;
 }
 
 .content {
@@ -104,6 +104,6 @@ main {
 
 @media (min-width: 680px) {
     main {
-        background-image: url('../../images/gravida_elo7-1-1.jpg');       
+        background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');       
     }
 }
