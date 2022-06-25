@@ -109,8 +109,41 @@ main {
     color: #FFF;
 }
 
+#emailError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+#emailError.visible {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#selectError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+#selectError.visible {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input.invalid {
+border: 0.5px solid red;
+}
+
+select.invalid {
+    border: 0.5px solid red;
+    }
+
 @media (min-width: 680px) {
     main {
-        background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');       
+        background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');
+        background-size: cover;  
+    }
+
+    .wrapper {
+        background: transparent;
     }
 }
