@@ -11,15 +11,10 @@ body {
 
 main {
     text-align: center;    
-    background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');
-    background-size: 160%;
+    background-image: url('../../images/bg-baby.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
-}
-
-.wrapper {    
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 66%, rgba(255,255,255,0) 80%, rgba(255,255,255,0) 100%);
+    background-position: top center;
 }
 
 .content {
@@ -37,7 +32,7 @@ main {
     font-family: 'Pacifico', cursive;
     color: #A0D5CD;
     font-size: 38px;
-    text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+    text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
 
@@ -139,7 +134,7 @@ select.invalid {
 
 @media (min-width: 680px) {
     main {
-        background-image: url('https://lavembebe.com.br/blog/wp-content/uploads/2022/06/baby2-cadblog.jpg');
+        background-image: url('../../images/bg-baby.jpeg');
         background-size: cover;  
     }
 
