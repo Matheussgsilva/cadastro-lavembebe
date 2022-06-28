@@ -11,10 +11,10 @@ body {
 
 main {
     text-align: center;    
-    background-image: url('../../images/01.jpg');
+    background-image: url('../../images/05.jpg');
     background-size: auto 100vh;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom center;
 }
 
 .content {
@@ -134,8 +134,9 @@ select.invalid {
 
 @media (min-width: 680px) {
     main {
-        background-image: url('../../images/01.jpg');
-        background-size: cover;  
+        background-image: url('../../images/05.jpg');
+        background-size: 150%;
+        background-position: center center;  
     }
 
     .wrapper {
