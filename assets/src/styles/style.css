@@ -11,7 +11,7 @@ body {
 
 main {
     text-align: center;    
-    background-image: url('../../images/01.jpg');
+    background-image: url('../../images/gravida_elo7-mobile.jpg');
     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: top center;
@@ -134,8 +134,7 @@ select.invalid {
 
 @media (min-width: 680px) {
     main {
-        background-image: url('../../images/01.jpg');
-        background-size: cover;  
+        background-image: url('../../images/gravida_elo7-1-1.jpg');
     }
 
     .wrapper {
